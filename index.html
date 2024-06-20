@@ -53,6 +53,7 @@
           </ul>
         </address>
 
+        <!-- Menu Burger -->
         <button type="button" class="open-menu-btn" data-modal-open>
           <svg width="24" height="24">
             <use href="./images/icons.svg#icon-burger-menu"></use>
@@ -97,7 +98,7 @@
           </ul>
         </address>
 
-          <ul class="social-list">
+          <ul class="social-list-menu-burger">
                   <li class="social-item">
                     <a href="" class="social-link">
                       <svg class="icons-social" width="16" height="16">
@@ -200,18 +201,26 @@
       </section>
 
       <!-- Team Section -->
-      <!-- <section class="team-section section">
+      <section class="team-section section">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list">
             <li class="team-item">
-              <img
+              <picture>
+                <source srcset="./images/mark-guerrero-des.jpg 1x, ./images/mark-guerrero-des-2x.jpg 2x"
+                media="(min-width: 1158px)">
+                <source srcset="./images/mark-guerrero-tab.jpg 1x, ./images/mark-guerrero-tab-2x.jpg 2x"
+                media="(min-width: 768px)">
+                <source srcset="./images/mark-guerrero-mob.jpg 1x, ./images/mark-guerrero-mob-2x.jpg 2x"
+                media="(min-width: 320px)">
+                <img
                 class="team-image"
-                src="./images/mark-guerrero.jpg"
+                src="./images/mark-guerrero-des.jpg"
                 alt="Mark Guerrero"
                 width="264"
                 height="260"
               />
+              </picture>
               <div class="team-member-description">
                 <h3 class="team-member-title">Mark Guerrero</h3>
                 <p class="team-member-text">Product Designer</p>
@@ -249,13 +258,21 @@
               </div>
             </li>
             <li class="team-item">
-              <img
+              <picture>
+                <source srcset="./images/tom-ford-des.jpg 1x, ./images/tom-ford-des-2x.jpg 2x"
+                media="(min-width: 1158px)">
+                <source srcset="./images/tom-ford-tab.jpg 1x, ./images/tom-ford-tab-2x.jpg 2x"
+                media="(min-width: 768px)">
+                <source srcset="./images/tom-ford-mob.jpg 1x, ./images/tom-ford-mob-2x.jpg 2x"
+                media="(min-width: 320px)">
+                <img
                 class="team-image"
-                src="./images/tom-ford.jpg"
+                src="./images/tom-ford-des.jpg"
                 alt="Tom Ford"
                 width="264"
                 height="260"
               />
+              </picture>
               <div class="team-member-description">
                 <h3 class="team-member-title">Tom Ford</h3>
                 <p class="team-member-text">Frontend Developer</p>
@@ -294,13 +311,21 @@
             </li>
 
             <li class="team-item">
-              <img
+              <picture>
+                <source srcset="./images/camila-garcia-des.jpg 1x, ./images/camila-garcia-des-2x.jpg 2x"
+                media="(min-width: 1158px)">
+                <source srcset="./images/camila-garcia-tab.jpg 1x, ./images/camila-garcia-tab-2x.jpg 2x"
+                media="(min-width: 768px)">
+                <source srcset="./images/camila-garcia-mob.jpg 1x, ./images/camila-garcia-mob-2x.jpg 2x"
+                media="(min-width: 320px)">
+                <img
                 class="team-image"
-                src="./images/camila-garcia.jpg"
+                src="./images/camila-garcia-des.jpg"
                 alt="Camila Garcia"
                 width="264"
                 height="260"
               />
+              </picture>
               <div class="team-member-description">
                 <h3 class="team-member-title">Camila Garcia</h3>
                 <p class="team-member-text">Marketing</p>
@@ -339,13 +364,21 @@
             </li>
 
             <li class="team-item">
-              <img
+              <picture>
+                <source srcset="./images/daniel-wilson-des.jpg 1x, ./images/daniel-wilson-des-2x.jpg 2x"
+                media="(min-width: 1158px)">
+                <source srcset="./images/daniel-wilson-tab.jpg 1x, ./images/daniel-wilson-tab-2x.jpg 2x"
+                media="(min-width: 768px)">
+                <source srcset="./images/daniel-wilson-mob.jpg 1x, ./images/daniel-wilson-mob-2x.jpg 2x"
+                media="(min-width: 320px)">
+                <img
                 class="team-image"
-                src="./images/daniel-wilson.jpg"
+                src="./images/daniel-wilson-des.jpg"
                 alt="Daniel Wilson"
                 width="264"
                 height="260"
               />
+              </picture>
               <div class="team-member-description">
                 <h3 class="team-member-title">Daniel Wilson</h3>
                 <p class="team-member-text">UI Designer</p>
@@ -384,7 +417,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!-- Our Portfolio -->
       <!-- <section class="portfolio-section section">

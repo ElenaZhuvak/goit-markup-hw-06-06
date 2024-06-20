@@ -207,7 +207,7 @@ input {
 .mob-menu-contacts-item-link:focus {
   color: #404bbf;
 }
-.social-list {
+.social-list-menu-burger {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -508,8 +508,50 @@ input {
 .box-icon-features {
   display: none;
 }
-
 /* Features */
+
+/* Team */
+.team-section {
+  background-color: #f4f4fd;
+}
+.team-title {
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 72px;
+}
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.team-item {
+  background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+.team-image {
+  width: 100%;
+}
+.team-member-description {
+  text-align: center;
+  padding: 32px 16px;
+}
+.team-member-title {
+  margin-bottom: 8px;
+}
+.team-member-text {
+  margin-bottom: 8px;
+}
+.social-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 24px;
+}
+/* Team */
 
 /* ---- Mobile ---- */
 @media screen and (max-width: 767px) {
@@ -541,9 +583,20 @@ input {
         url(../images/bg-img-mob-2x.jpg);
     }
   }
-  /* Features Mob */
+  .features-item-title {
+    text-align: center;
+  }
 }
-
+/* Features Mob */
+@media screen and (max-width: 1157px) {
+  .features-item-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    margin-bottom: 8px;
+  }
+}
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 /* ---- Tablet ---- */
 @media screen and (min-width: 768px) {
   .container {
@@ -640,7 +693,6 @@ input {
   .hero-title {
     font-size: 56px;
     line-height: 1.07;
-
     max-width: 496px;
     margin-bottom: 36px;
   }
@@ -649,11 +701,22 @@ input {
   .features-item {
     width: calc((100% - 24px) / 2);
   }
+  /* Team Tab */
+  .team-item {
+    width: calc((100% - 24px) / 2);
+  }
 }
 
-/* @media screen and (min-width: 768px) and (max-width: 1157px) {
-} */
-
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .team-list {
+    gap: 64px 24px;
+  }
+  .team-section {
+    padding-left: 108px;
+    padding-right: 108px;
+  }
+}
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 /* ---- Desktop ---- */
 @media screen and (min-width: 1158px) {
   .container {
@@ -717,5 +780,15 @@ input {
     background-color: #f4f4fd;
     border-radius: 4px;
     margin-bottom: 8px;
+  }
+  .features-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+  }
+  /* Team Desk */
+  .team-item {
+    width: calc((100% - 3 * 24px) / 4);
   }
 }

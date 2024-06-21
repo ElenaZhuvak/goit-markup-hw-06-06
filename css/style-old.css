@@ -411,10 +411,10 @@ input {
 .footer {
   background-color: #2e2f42;
 }
-.footer-container {
+/* .footer-container {
   padding-top: 100px;
   padding-bottom: 100px;
-}
+} */
 .footer-items {
   display: flex;
   align-items: baseline;
@@ -423,7 +423,7 @@ input {
   max-width: 264px;
   margin-right: 120px;
 }
-.logo-link-footer {
+/* .logo-link-footer {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -434,18 +434,18 @@ input {
 
   display: inline-block;
   margin-bottom: 16px;
-}
+} */
 
-.footer-text {
+/* .footer-text {
   color: #ffffff;
 }
 .logo-footer-text {
   color: #f4f4fd;
-}
+} */
 .footer-social-media {
   margin-right: auto;
 }
-.footer-social-media-text {
+/* .footer-social-media-text {
   color: #ffffff;
   font-weight: 500;
   font-size: 16px;
@@ -459,8 +459,8 @@ input {
   justify-content: center;
   flex-direction: row;
   gap: 16px;
-}
-.footer-social-link {
+} */
+/* .footer-social-link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -470,7 +470,7 @@ input {
   border-radius: 50%;
   background-color: #4d5ae5;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 .footer-social-item {
 }
@@ -482,11 +482,11 @@ input {
 .footer-form {
 }
 
-.subscribe-text {
+/* .subscribe-text {
   font-weight: 500;
   color: #fff;
   margin-bottom: 16px;
-}
+} */
 .footer-form-subscribe {
   display: flex;
   align-items: center;
@@ -509,14 +509,14 @@ input {
   outline: transparent;
 }
 
-.subscribe-input::placeholder {
+/* .subscribe-input::placeholder {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
   color: #fff;
-}
+} */
 
-.subscribe-btn {
+/* .subscribe-btn {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -537,15 +537,15 @@ input {
   background-color: #4d5ae5;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 .subscribe-btn:hover,
 .subscribe-btn:focus {
   background-color: #404bbf;
 }
-.subscribe-icon {
+/* .subscribe-icon {
   margin-left: 16px;
   fill: #fff;
-}
+} */
 
 /* ----------------------------------------------- */
 /* Modal */

@@ -125,8 +125,8 @@ input {
   overflow: auto;
 }
 .is-open {
-  visibility: visible;
-  opacity: 1;
+  visibility: hidden;
+  opacity: 0;
   pointer-events: auto;
 }
 .close-menu-btn {
